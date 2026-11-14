@@ -25,8 +25,13 @@ The goal is to master assembly and be able to debug and write code using it, and
 - Understanding low-level program execution and how the CPU processes instructions
 
 
-## Ressources :
-- [x86-64 Assembly Language Programming with Ubuntu (PDF)](Ressources/Assembly.pdf)
+## Resources :
+### BOOKS :
+- [x86-64 Assembly Language Programming with Ubuntu (PDF)](Resources/Assembly.pdf)
+    - Author : Ed Jorgensen
+    - License: CC BY-NC-SA 4.0
+
+### LINKS :
 - [NASM documentation](https://www.nasm.us/doc/)
 - [NASM tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
 

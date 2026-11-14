@@ -24,6 +24,12 @@ The goal is to master assembly and be able to debug and write code using it, and
 - Using labels to define data and code locations
 - Understanding low-level program execution and how the CPU processes instructions
 
+
+## Ressources :
+- [x86-64 Assembly Language Programming with Ubuntu (PDF)](Ressources/Assembly.pdf)
+- [NASM documentation](https://www.nasm.us/doc/)
+- [NASM tutorial](https://cs.lmu.edu/~ray/notes/nasmtutorial/)
+
 ## How to Run 
 ### Prerequisites
 - A Linux machine

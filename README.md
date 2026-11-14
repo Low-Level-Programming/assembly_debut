@@ -1,1 +1,68 @@
 # assembly_debut
+
+## Description
+A place to explore the fundamentals of x86-64 Assembly, as a first step to learn how computers work and executes instruction.
+We'll explore how cpu and linux executes operations, registers, memory, data representation, and many more. 
+The goal is to master assembly and be able to debug and write code using it, and eventually build the skills needed for reverse engineering.
+
+## What we've built so far
+- **rectangle.asm** : Draws the outline of a rectangle
+- **circle.asm** : Draws a full circle
+
+## Indivdual progress
+
+### Ali :
+#### What I've learned so far
+- Printing a buffer 
+- Defining data using NASM directives : `db`, `dw`, `equ`
+- Storing data in registers
+- Arithmetic operations : `add`, `mul`, `sub`
+- Creating loops (regular and nested loops)
+- Comparing values using `cmp`
+- Conditionnal and unconditionnal jumps : `jge`, `jle`, `jg`, `jl`, `je`, `jmp` 
+- Understanding registers sizes
+- Using labels to define data and code locations
+- Understanding low-level program execution and how the CPU processes instructions
+
+## How to Run 
+### Prerequisites
+- A Linux machine
+- NASM
+- GNU Linker (`ld`)
+
+### Install NASM
+- On Ubuntu/Debian :
+```
+sudo apt install nasm
+```
+
+- On Arch Linux :
+```
+sudo pacman -S nasm
+```
+
+### Install GNU Binutils (ld)
+- On Ubuntu/Debian :
+```
+sudo apt install binutils
+```
+
+- On Arch Linux :
+```
+sudo pacman -S binutils
+```
+
+### Assemble
+```
+nasm -f elf64 file.asm -o file.o
+```
+
+### Link
+```
+ld file.o -o file
+```
+
+### Run
+```
+./file
+```

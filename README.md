@@ -8,11 +8,21 @@ The goal is to master assembly and be able to debug and write code using it, and
 ## What we've built so far
 - **rectangle.asm** : Draws the outline of a rectangle
 - **circle.asm** : Draws a full circle
+- **print_numbers.asm** : Contains a procedure that prints signed and unsigned integers to the terminal
 
 ## Indivdual progress
 
 ### Ali :
 #### What I've learned so far
+##### Day 0 (before assembly)
+- Differentes number-base representations (binary, decimal, hexadecimal, octal).
+- Number-base conversions.
+- Negative integers representation.
+- Computer architecture basics (registers, cpu, ram).
+- Binary arithmetic (addition, substraction).
+- Bitwise operations (AND, OR, XOR, NAND, NOT, bit shifting).
+
+##### Day 1
 - Printing a buffer 
 - Defining data using NASM directives : `db`, `dw`, `equ`
 - Storing data in registers
@@ -23,6 +33,12 @@ The goal is to master assembly and be able to debug and write code using it, and
 - Understanding registers sizes
 - Using labels to define data and code locations
 - Understanding low-level program execution and how the CPU processes instructions
+
+##### Day 2
+- Integer divisions: `div bl` (al <- ax / bl AND ah <- ax % bl)
+- Inter to ASCII conversion
+- Printing signed and unsigned integers
+- Using `call` and `ret`
 
 
 ## Resources :
